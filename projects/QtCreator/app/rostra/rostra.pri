@@ -126,4 +126,6 @@ $${rostra_FRAMEWORKS} \
 rostra_exe_LIBS += \
 $${rostra_LIBS} \
 
-
+########################################################################
+# NO Qt
+QT -= gui core
